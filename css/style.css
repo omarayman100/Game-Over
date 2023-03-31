@@ -1,0 +1,70 @@
+:root{
+    --maincolor: #272b30;
+}
+body{
+    background-color: var(--maincolor);
+    color: white;
+    font-family: 'Nerko One', cursive;
+        /* font-family: 'Poppins', sans-serif; */
+        /* font-family: 'Work Sans', sans-serif; */
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+main{
+    background-image: url(../images/wraper.png);
+    background-position: center center;
+    background-size:100% ;
+    min-height: 200px;
+    min-width: 100%;
+    background-color: var(--maincolor);
+}
+nav{
+    position: absolute;
+    top: 170px;
+}
+#description{
+    /* color: rgba(255, 255, 255, 0.479); */
+    max-height: 200px;
+    min-height: 250px !important;
+}
+
+.card0{
+    transition: all .5s;
+
+}
+
+.card0:hover{
+    scale: 110%;
+}
+
+.Details-Game{
+    background-color: var(--maincolor);
+
+    z-index: 999;
+}
+/* .Details-Game .Details-Game-img{
+    max-height: 300px;
+    min-height: 300px;
+    width: 100%;
+} */
+
+.close-btn{
+    right: 100px;
+    top: 50px;
+    font-size: xx-large;
+}
+
+.windows{
+    font-size: 12px;
+}
+
+.navbar{
+    z-index: 9999999;
+}
+
+.active{
+    color: white;
+}
